@@ -6,8 +6,7 @@ The project focuses on a clean UI, student-friendly layout, and demo login funct
 Its a demo and a project website to just showcase and give a rough idea for main frontend.
 
 🔗 **Live Website:**  
-
-
+https://deveshrdev98-ship-it.github.io/Coaching-Website/
 ---
 
 ## ✨ Features
