@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #020617;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #1e3a8a, #020617);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2.3rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #22c55e;
+}
+
+.about, .courses, .dashboard {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.login-box input {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #020617;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 1.7rem;
+  }
+}
