@@ -1,5 +1,6 @@
 # 📚 Coaching Institute Website (Frontend)
 
+A Very Basic and small scale project of a coaching-website.
 This is a modern, responsive **Coaching Institute Website frontend** designed for **Class 11–12, JEE, NEET, and Commerce students**.  
 The project focuses on a clean UI, student-friendly layout, and demo login functionality.
 Its a demo and a project website to just showcase and give a rough idea for main frontend.
